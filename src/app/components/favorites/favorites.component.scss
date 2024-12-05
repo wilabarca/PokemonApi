@@ -1,0 +1,76 @@
+.favoritos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #e74c3c; /* Rojo fuerte */
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+      background-color: #1abc9c; /* Verde suave */
+      color: #ffffff;
+      font-size: 1.1rem;
+      text-align: left;
+      padding: 15px;
+      text-transform: uppercase;
+      border-bottom: 3px solid #d1d1d1;
+
+      &:first-child {
+          border-top-left-radius: 12px;
+      }
+
+      &:last-child {
+          border-top-right-radius: 12px;
+      }
+  }
+
+  td {
+      padding: 12px;
+      font-size: 1rem;
+      color: #555;
+      border-bottom: 1px solid #e0e0e0;
+  }
+
+  background-color: #fafafa;
+
+  tr:hover {
+      background-color: #f0f0f0;
+  }
+}
+
+.pokemon-image {
+  width: 60px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+      background-color: #2980b9; 
+      transform: translateY(-2px);
+  }
+}
